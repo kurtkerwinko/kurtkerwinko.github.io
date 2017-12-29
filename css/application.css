@@ -158,6 +158,15 @@ hr.title:after {
   font-weight: normal;
 }
 
+#projects a {
+  text-decoration: none;
+}
+
+#projects a[target='_blank']::after {
+  content: '\1F5D7';
+  font-size: 1.344em;
+}
+
 /* Footer */
 .footer {
   display: flex;
