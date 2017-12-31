@@ -138,10 +138,6 @@ hr.title:after {
   background-color: #ecf0f1;
 }
 
-#projects {
-  /* background-color: #e67e22; */
-}
-
 #projects h1 {
   margin: 0px auto;
 }
@@ -154,7 +150,7 @@ hr.title:after {
   padding: 3px;
 }
 
-#projects .projects-list li > * {
+#projects .projects-list li > span {
   font-weight: normal;
 }
 
