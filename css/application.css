@@ -41,7 +41,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 220px;
+  width: 11.224em;
 }
 
 .menu .container .brand a {
@@ -50,14 +50,14 @@ body {
   color: #ffffff;
   text-decoration: none;
   outline: 0;
-  padding: 16px;
+  padding: 0.816em;
 }
 
 .menu .container .items {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  width: calc(100% - 220px);
+  width: calc(100% - 11.224em);
 }
 
 .nav-list {
@@ -169,4 +169,25 @@ hr.title:after {
   align-items: center;
   justify-content: center;
   height: 80px;
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 19.6px;
+  }
+
+  .menu .container .brand {
+    width: 220px;
+  }
+
+  .menu .container .brand a {
+    padding: 16px;
+  }
+
+  .menu .container .items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: calc(100% - 220px);
+  }
 }
