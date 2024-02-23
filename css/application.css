@@ -27,8 +27,25 @@ body {
   width: 100%;
   max-width: 1000px;
   margin: 0px auto;
-  padding: 2.490em;
+  padding: 1.5em 2.490em;
   flex-direction: column;
+}
+
+.section .section-list .certification {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px;
+}
+
+.section .section-list .certification div {
+  margin: 0px
+}
+
+.section .section-list .certification .badge {
+  height: calc(80px + (110 - 80) * ((100vw - 300px) / (1600 - 300)));
+  width: calc(80px + (110 - 80) * ((100vw - 300px) / (1600 - 300)));
+  margin-right: 14px;
 }
 
 #header > h1 {
